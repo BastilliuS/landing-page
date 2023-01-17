@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
 
 }
 
@@ -80,6 +81,8 @@ padding-bottom: 100px;
     width:100px;
     color: #f9faf8;
     border-style: none;
+    padding: 10px;
+    flex-shrink: 0;
 }
 .body2{
     display: flex;
