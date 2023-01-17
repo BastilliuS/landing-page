@@ -109,15 +109,26 @@ padding-bottom: 100px;
 .quotes{
     max-width: 150px;
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 30px;
+    
+    
+    
 }
 .quote-illustration{
     border:3px  solid #3882f6;
     border-radius: 15px;
     width: 200px;
     height: 200px;
+}
+.pack1,
+.pack2,
+.pack3,
+.pack4{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width: 206px;
+    height: 264px;
+    align-items: center;
 }
 .body3{
     display: flex;
